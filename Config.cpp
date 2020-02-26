@@ -44,7 +44,7 @@ Config::Config() : historyLength(60), maxPower(255), pIn(2.0), iIn(10.0), dIn(1.
       } else if (line == "dIn") {
         dIn = value.toDouble();
       } else if (line == "setPoint") {
-	setPoint = value.toDouble();
+	      setPoint = value.toDouble();
       } else {
         Serial.printf("Configuration item \"%s\" is not recognised\n", line.c_str());
       }

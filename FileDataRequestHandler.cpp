@@ -35,7 +35,11 @@ bool FileDataRequestHandler::handle(ESP8266WebServer& server, HTTPMethod request
     wifiConfig["password"] = config->password;
     wifiConfig["APssid"] = config->APssid;
     wifiConfig["APpassword"] = config->APpassword;
-    char json[128];
+    wifiConfig["historyLength"] = config->historyLength;
+    wifiConfig["pIn"] = config->pIn;
+    wifiConfig["iIn"] = config->iIn;
+    wifiConfig["dIn"] = config->dIn;
+    char json[256];
     wifiConfig.printTo((char*)json, wifiConfig.measureLength() + 1);
     server.send(200, jsonMimeType, json);
   } else if (requestUri == "/getData") { //when the webserver wants the latest data from the array of times and values in JSON format
