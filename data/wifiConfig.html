@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8"> <!-- Character type -->
+	<link rel="icon" href=""> <!-- Tab bar icon -->
+	<title>Wills Website Test</title> <!-- top webpage id -->
+	<meta name="description" content="Test Website - Home">
+	<meta name="keywords" content="Testing, Potato">
+	<meta name="author" content="William Hollywood">
+	<meta name="viewport" content="width=device-width">
+	<style></style>
+	<script type="text/javascript" src="GetWiFiConf.js"></script>
+</head>
+
+<body>
+	<div align="center">
+		<h1>Wifi Config</h1>
+		
+		<p>
+			<form name="wiFiInfo" id="wiFiInfo" method="GET">
+				WiFi Name: <br/>
+				<input name="ssid" id="ssid" type="text" value=""><br/>
+				WiFi Password: <br/>
+				<input name="password" id="password" type="password" value=""><br/>
+				AP Name: <br/>
+				<input name="APssid" id="APssid" type="text" value=""><br/>
+				AP Password: <br/>
+				<input name="APpassword" id="APpassword" type="password" value=""><br/>
+				<input type="submit">
+			</form>
+			After any password/name changes you will need to restart the Arduino
+		</p>
+
+	</div>
+</body>
+</html>

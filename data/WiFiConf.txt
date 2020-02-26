@@ -1,0 +1,1 @@
+APssid:FanControl,APpassword:password,WFssid:OPL,WFpassword:beeffoodiscoolcoolbeef1234,history:100,maxPower:60,pIn:0.5,iIn:1,dIn:1,
