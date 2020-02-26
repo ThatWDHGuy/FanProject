@@ -1,1 +1,1 @@
-APssid:FanControl,APpassword:password,WFssid:ToBeSet,WFpassword:ToBeSet,history:100,maxPower:60,pIn:0.5,iIn:1,dIn:1,
+APssid:FanControl,APpassword:password,WFssid:TBD,WFpassword:TBD,history:100,maxPower:60,pIn:0.5,iIn:1,dIn:1,
